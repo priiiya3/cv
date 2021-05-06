@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<body>
+    <h3>Address : </h3>
+    <p> <strong>resident : </strong> 484, Avas Vikas Colony, Yojna - 2, Jhunsi, Allahabad.</p>
+    <p><strong>Phone Number : </strong> 8173XXXXXX </p>
+    <p><strong>email : </strong> pria_ka_email@gmail.com </p>
+    <br>
+    <hr>
+    <h3>Take an Appointment</h3>
+
+    <form action="mailto:mymail@gmail.com" method="post" enctype="text/plain">
+        <label> Your Name : </label>
+        <input type="text" name="Name"> <br> <br>
+
+        <label for="text">Your Email : </label>
+        <input type="email" name="Email" id=""> <br> <br>
+
+        <label> Password : </label>
+        <input type="password" name="Password"><br> <br>
+
+        <label> Month for Meeting:</label>
+        <input type="datetime-local" name="Date Set" id=""> <br><br>
+
+        <label> Upload your Id Card: (Adhar Card/ Pan Card/ Voter ID)</label>
+        <input type="file" name="Verification ID"> <br> <br>
+        
+        <Label>Gender : </Label>
+        Female <input type="radio">
+        Male <input type="radio" name="Gender" > <br> <br>
+
+        <label for="Message">Your Reason for Appointment.</label>
+        <textarea name="Reason for Appointment" cols="50" rows="1"></textarea> <br> <br>
+
+        <label> Do you want to get email notification from us.</label>
+        <input type="checkbox"><br> <br>
+        
+        <label for=""> How Much do you like our Service? </label>
+        <input type="range" name="range"> <br><br>
+
+        <input type="submit">
+    </form>
+</body>
+</html>
